@@ -1,2 +1,2 @@
-# danielswiecicki.github.io
+# danekpepe.github.io
 Vefsíða fyrir áfangann VÉL608G - Tölvustudd Framleiðsla
