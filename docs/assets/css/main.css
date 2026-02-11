@@ -3576,18 +3576,17 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
-	@media screen and (max-width: 1280px) {
-
-		#wrapper > header {
-			padding: 9em 0 6.25em 0 ;
-			background-color: ##1f2230;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto,
- cover;
-			background-position: center,
- 0% 30%;
-			margin-bottom: -6.5em;
-		}
+			#wrapper > header {
+			  padding: 9em 0 10em 0;     /* was 6.25em */
+			  margin-bottom: -10em;      /* was -6.5em */
+			
+			  background-color: #2e3141;
+			  background-image:
+			    linear-gradient(to top, rgba(20, 22, 30, 0.9), rgba(20, 22, 30, 0.9)),
+			    url("../../images/bg2.jpg");
+			  background-size: auto, cover;
+			  background-position: center, 0% 30%;
+			}
 
 	}
 
@@ -4176,4 +4175,5 @@ input, select, textarea {
   background: rgba(20, 22, 30, 0.6);
   clip-path: polygon(0 35%, 100% 25%, 100% 100%, 0 100%);
 }
+
 
