@@ -3628,12 +3628,12 @@ input, select, textarea {
 	}
 
 	.wrapper {
-  margin: 9em 0;           /* was 6.5em */
+ 	 margin: 9em 0;           /* was 6.5em */
 }
 
-.wrapper:before,
-.wrapper:after {
-  height: 9em;             /* was 6.5em */
+	.wrapper:before,
+	.wrapper:after {
+  		height: 9em;             /* was 6.5em */
 }
 
 .wrapper:before { top: -9em; }
@@ -4151,6 +4151,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 
 
