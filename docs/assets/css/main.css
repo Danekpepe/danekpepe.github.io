@@ -3633,17 +3633,9 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.wrapper:before, .wrapper:after {
-		  height: 9em;       /* was 6.5em */
-		}
-		
-		.wrapper:before {
-		  top: -9em;         /* was -6.5em */
-		}
-		
-		.wrapper:after {
-		  bottom: -9em;      /* was -6.5em */
-		}
+		.wrapper:before, .wrapper:after { height: 9em; }
+		.wrapper:before { top: -9em; }
+		.wrapper:after  { bottom: -9em; }
 
 		.wrapper:before, .wrapper:after {
 			background-repeat: no-repeat;
@@ -4157,6 +4149,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 
 
