@@ -3580,7 +3580,7 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
-			background-color: #2e3141;
+			background-color: ##1f2230;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto,
  cover;
@@ -4176,3 +4176,4 @@ input, select, textarea {
   background: rgba(20, 22, 30, 0.6);
   clip-path: polygon(0 35%, 100% 25%, 100% 100%, 0 100%);
 }
+
