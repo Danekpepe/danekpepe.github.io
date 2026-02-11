@@ -4167,3 +4167,7 @@ input, select, textarea {
 #two.wrapper {
   margin-top: 0;
 }
+
+#one.wrapper.spotlight .inner {
+  padding-bottom: 6em; /* try 4em–10em */
+}
