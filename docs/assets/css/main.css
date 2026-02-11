@@ -4160,18 +4160,19 @@ input, select, textarea {
 
 #page-wrapper {
   position: relative;
-  z-index: 0;          /* establishes stacking */
+  z-index: 0;
 }
 
 #page-wrapper:before {
   content: '';
-  position: fixed;
-  inset: 0;
-  z-index: -1;         /* sits behind all page content */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200vh;       /* big enough to cover long pages */
+  z-index: -1;
   pointer-events: none;
 
   background: rgba(20, 22, 30, 0.6);
-
-  /* adjust these to match your diagonal */
   clip-path: polygon(0 35%, 100% 25%, 100% 100%, 0 100%);
 }
