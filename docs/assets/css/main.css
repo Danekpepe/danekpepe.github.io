@@ -4158,27 +4158,20 @@ input, select, textarea {
 
 	}
 
-body {
+#page-wrapper {
   position: relative;
+  z-index: 0;          /* establishes stacking */
 }
 
-body:after {
+#page-wrapper:before {
   content: '';
   position: fixed;
   inset: 0;
-  z-index: 0;
+  z-index: -1;         /* sits behind all page content */
   pointer-events: none;
 
   background: rgba(20, 22, 30, 0.6);
 
+  /* adjust these to match your diagonal */
   clip-path: polygon(0 35%, 100% 25%, 100% 100%, 0 100%);
 }
-
-/* Make sure content stays above overlay */
-#page-wrapper {
-  position: relative;
-  z-index: 1;
-}
-
-
-
