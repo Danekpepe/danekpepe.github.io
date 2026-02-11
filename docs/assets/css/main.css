@@ -4158,6 +4158,27 @@ input, select, textarea {
 
 	}
 
+body {
+  position: relative;
+}
+
+body:after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+
+  background: rgba(20, 22, 30, 0.6);
+
+  clip-path: polygon(0 35%, 100% 25%, 100% 100%, 0 100%);
+}
+
+/* Make sure content stays above overlay */
+#page-wrapper {
+  position: relative;
+  z-index: 1;
+}
 
 
 
