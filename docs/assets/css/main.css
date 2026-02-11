@@ -3628,14 +3628,16 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		background-color: #2e3141;
-		margin: 6.5em 0;
-		position: relative;
-	}
+  margin: 9em 0;           /* was 6.5em */
+}
 
-		.wrapper:before, .wrapper:after { height: 9em; }
-		.wrapper:before { top: -9em; }
-		.wrapper:after  { bottom: -9em; }
+.wrapper:before,
+.wrapper:after {
+  height: 9em;             /* was 6.5em */
+}
+
+.wrapper:before { top: -9em; }
+.wrapper:after  { bottom: -9em; }
 
 		.wrapper:before, .wrapper:after {
 			background-repeat: no-repeat;
@@ -4149,6 +4151,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 
 
