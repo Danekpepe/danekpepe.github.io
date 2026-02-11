@@ -4158,6 +4158,12 @@ input, select, textarea {
 
 	}
 
+/* Remove the gap below the first blue banner so the body background photo doesn't show */
+#one.wrapper.spotlight {
+  margin-bottom: 0;
+}
 
-
-
+/* Also remove the gap above the next section (change #two to whatever your next section id is) */
+#two.wrapper {
+  margin-top: 0;
+}
